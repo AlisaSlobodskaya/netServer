@@ -9,6 +9,8 @@ The server is made in two versions:
 1) using blocking sockets and multithreaded processing for messaging, supports communication with the database;
 2) using single-threaded processing on the selector, doesn't support communication with the database.
 
+User data is stored in the postgresql database. Data about the tables used in the db.sql.
+
 Simple Messaging Protocol: <br>
 `value GS value GS value RS` <br>
 

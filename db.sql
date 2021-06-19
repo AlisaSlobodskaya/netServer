@@ -1,11 +1,11 @@
--- Создаем таблицу, хранящую сообщения
+-- Creating a table that stores messages.
 CREATE TABLE Messages (
   id serial NOT NULL,
   message text NOT NULL,
   PRIMARY KEY (id)
 );
 
--- Таблица с учетными данными пользователей
+-- Table with user credentials.
 CREATE TABLE Clients (
   id serial NOT NULL,
   login text NOT NULL UNIQUE,
